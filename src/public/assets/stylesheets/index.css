@@ -1,0 +1,91 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+  background-color: #192149;
+}
+
+header{
+  background-color: #98adf0;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+
+header h1{
+  color: #921515;
+}
+
+header ul{
+  display: inline-block;
+  width: auto;
+  list-style-type: none;
+}
+
+header ul li {
+  float: left;
+  margin-left: 3em;
+  font-size: 2em;
+}
+
+header ul li:hover {
+  background-color: aquamarine;
+  cursor:pointer;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+section {
+  min-height: 1000px;
+  color:#ec5050;
+}
+footer {
+  /* footer styles */
+}
+
+
+.rover_item{
+  margin-left: auto;
+  margin-right: auto;
+  height: 50em;
+  width: 50em;
+}
+.rover_item img {
+  height: 35em;
+  width: 35em;
+  margin-bottom: 0;
+}
+.rover_text {
+  margin-top: 0;
+  background-color: #ced3e2;
+  height: fit-content;
+  width: 35em;
+}
+.rover_text p {
+  padding: 1em;
+  color: #cf1717;
+  font-size: large;
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+}
